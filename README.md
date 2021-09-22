@@ -20,3 +20,5 @@ In this project, learned important tools that all programmers use. First, got in
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+# Acknowledgement:
+Thanks to the Udacity platform for providing the Programming for Data Science with Python Nanodegree program.
