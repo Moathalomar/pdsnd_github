@@ -30,19 +30,19 @@ def get_filters():
             print ("Please choose correct city from the avialable cities list")
         else :
             break
-    print ("Here you will input a Month to explore date ")
+    print ("Here you have to input a Month to explore date ")
     for month in Months :
         print ("-",month , end = " \n")          
     # TO DO: get user input for month (all, january, february, ... , june)
     while True :
-        month = input ("please choose a month to view the  bikeshare data!").lower()
+        month = input ("please choose the right  month to view the  bikeshare data!").lower()
         if month != "all" and month not in  Months :                                      
             print ("Please choose correct month from the avialable months list")
         else :
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    print ("Here you will input a day to explore date ")
+    print ("Here you you have to input a day to explore date ")
     for day in Days :
         print ("-",day , end = " \n")         
     # TO DO: get user input for month (all, january, february, ... , june)
